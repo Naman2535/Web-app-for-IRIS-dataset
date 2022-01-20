@@ -68,7 +68,7 @@ virginica = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Iris_virg
 
 
 st.subheader('Class labels and their corresponding index number')
-st.write(iris.target_names)
+st.dataframe(iris.target_names, width=700)
 
 st.subheader('Prediction')
 # Center the image
