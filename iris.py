@@ -153,5 +153,13 @@ if st.checkbox("Show EDA?"):
                    data=data,  orient='v', ax=axes[1, 1])
     st.pyplot()
 
+# Insert HTML link
+st.write(
+    """
+    For complete dataset, please click on the link below:
+    [Click here]()
+    """
+)
+
 st.write(
     "Made with ❤️ by [@Adarsh Anand](https://github.com/AdarshAnand67)")
