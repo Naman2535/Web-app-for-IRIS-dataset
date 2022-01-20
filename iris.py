@@ -157,7 +157,7 @@ if st.checkbox("Show EDA?"):
 st.write(
     """
     For complete dataset, please click on the link below:
-    [Click here](https://github.com/AdarshAnand67/Web-app-for-IRIS-dataset/blob/main/IRIS_Dataset_report.html)
+    [Click here](https://web-app-for-iris-dataset-6bfdiwckm-adarshanand67.vercel.app/)
     """
 )
 
