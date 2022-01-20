@@ -1,6 +1,7 @@
 from numpy import matrix
 import streamlit as st
 import pandas as pd
+from sklearn import datasets
 import numpy as np
 import seaborn as sns
 from sklearn.ensemble import RandomForestClassifier
