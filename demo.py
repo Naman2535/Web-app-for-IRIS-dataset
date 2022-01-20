@@ -5,7 +5,8 @@ import seaborn as sns
 import time
 import matplotlib.pyplot as plt
 import altair as alt
-st.set_option('deprecation.showPyplotGlobalUse', False)
+
+st.set_option("deprecation.showPyplotGlobalUse", False)
 
 st.title("Learning Streamlit")
 
@@ -32,10 +33,11 @@ st.text("Streamlit is helpful in deploying ML models")
 # st.write(sum) # Code documentations
 
 dict = {
-    "name": "Adarsh", "age": 22,
+    "name": "Adarsh",
+    "age": 22,
     "city": "Bangalore",
     "country": "India",
-    "email": "adarsh1212@gmail.com"
+    "email": "adarsh1212@gmail.com",
 }
 
 # st.write(dict) # Showing the dictionary
@@ -73,9 +75,7 @@ df = sns.load_dataset("iris")
 #     st.write(ret_time()) # Uses same output in cache
 
 
-chart_data = pd.DataFrame(
-    np.random.randn(100, 3),
-    columns=['a', 'b', 'c'])
+chart_data = pd.DataFrame(np.random.randn(100, 3), columns=["a", "b", "c"])
 
 # st.dataframe(chart_data)  # Showing the dataframe
 
@@ -175,7 +175,7 @@ plt.style.use("seaborn")
 data = {
     "num": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     "square": [1, 4, 9, 16, 25, 36, 49, 64, 81, 100],
-    "thrice": [1,3,6,9,12,15,18,21,24,27],
+    "thrice": [1, 3, 6, 9, 12, 15, 18, 21, 24, 27],
     "twice": [2, 8, 18, 32, 50, 72, 98, 128, 162, 200],
 }
 
@@ -200,7 +200,7 @@ df = pd.DataFrame(data)
 
 # elif radio == "Contact":
 #     st.write("Welcome to the contact page")
-    
+
 # # Status messages
 
 # st.error("Error")
@@ -213,6 +213,5 @@ df = pd.DataFrame(data)
 # for i in range(100):
 #     progress.progress(i+1)
 #     time.sleep(0.05)
-    
-# st.balloons() # Adding balloons to the page
 
+# st.balloons() # Adding balloons to the page
